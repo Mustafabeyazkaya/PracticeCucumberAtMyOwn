@@ -38,6 +38,7 @@ public class FbLogin extends CommonMethods {
     @Then("close the browser")
     public void close_the_browser() {
        closeBrowser();
+        System.out.println("Closing");
     }
 
 }
